@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-image: url("image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Regular.ttf");
+}
+@font-face{
+    font-family: "Raleway";
+    src: url("Raleway-Regular");
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    width: 505px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.10);
+    text-align: center;
+    font-style: normal;
+}
+h1{
+    margin-top: 246px;
+    margin-bottom: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.input1{
+    margin-top: 34px;
+    width: 266.008px;
+    height: 22.904px;
+    background: none;
+    border: none;
+    outline: none;
+    background-image: url("person_24px_outlined_1.svg");
+    background-repeat: no-repeat;
+    background-size: 22.091px 22.207px;
+    background-position: 243.917px 50%;
+}
+::placeholder{
+    color: #FFFfff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+.line{
+    margin: auto;
+    margin-top: 13.77px;
+    width: 266.008px;
+    height: 0.24px;
+    background: #FFF;
+}
+#input2{
+    margin-top: 52.09px;
+    background-image: url("Group_218.png");
+    background-repeat: no-repeat;
+    background-size: 18.409px 15.814px;
+}
+line2{
+    margin-top: 16.12px;
+}
+.ENTRAR{
+    margin-top: 47.4px;
+    width: 265.169px;
+    height: 45.809px;
+    border-radius: 0.961px;
+    background-color: #CFD8DC;
+    border: none;
+    color: #2A2A2A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
